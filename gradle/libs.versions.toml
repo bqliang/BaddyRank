@@ -67,6 +67,7 @@ android-library = { id = "com.android.library", version.ref = "agp" }
 
 # Plugins defined by this project
 baddyrank-android-application = { id = "baddyrank.android.application" }
+baddyrank-android-library = { id = "baddyrank.android.library" }
 baddyrank-android-application-compose = { id = "baddyrank.android.application.compose" }
 baddyrank-jvm-library = { id = "baddyrank.jvm.library" }
 baddyrank-android-library-compose = { id = "baddyrank.android.library.compose" }
