@@ -31,8 +31,11 @@ rootProject.name = "BaddyRank"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
+include(":crawler")
+include(":core:common")
 include(":core:model")
 include(":core:ui")
+include(":core:network:data")
 
 check(JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
     """
@@ -41,6 +44,3 @@ check(JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
     https://developer.android.com/build/jdks#jdk-config-in-studio
     """.trimIndent()
 }
-include(":crawler")
-include(":core:common")
-include(":core:network:data")
