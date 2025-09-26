@@ -1,4 +1,4 @@
-package com.bqliang.baddy.common.result
+package com.bqliang.baddyrank.core.result
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
