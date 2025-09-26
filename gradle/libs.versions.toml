@@ -73,4 +73,5 @@ baddyrank-android-application = { id = "baddyrank.android.application" }
 baddyrank-android-library = { id = "baddyrank.android.library" }
 baddyrank-android-application-compose = { id = "baddyrank.android.application.compose" }
 baddyrank-jvm-library = { id = "baddyrank.jvm.library" }
+baddyrank-jvm-application = { id = "baddyrank.jvm.application" }
 baddyrank-android-library-compose = { id = "baddyrank.android.library.compose" }

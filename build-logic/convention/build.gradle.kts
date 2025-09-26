@@ -53,6 +53,10 @@ gradlePlugin {
             id = libs.plugins.baddyrank.jvm.library.get().pluginId
             implementationClass = "JvmLibraryConventionPlugin"
         }
+        register("jvmApplication") {
+            id = libs.plugins.baddyrank.jvm.application.get().pluginId
+            implementationClass = "JvmApplicationConventionPlugin"
+        }
         register("androidLibrary") {
             id = libs.plugins.baddyrank.android.library.asProvider().get().pluginId
             implementationClass = "AndroidLibraryConventionPlugin"
