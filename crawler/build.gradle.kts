@@ -7,7 +7,7 @@ application {
 }
 
 dependencies {
-    implementation(projects.crawler.data)
+    implementation(projects.core.network.data)
 
     // DeepSeek
     implementation(libs.aallam.openai.client) // also need one of Ktor's engines.

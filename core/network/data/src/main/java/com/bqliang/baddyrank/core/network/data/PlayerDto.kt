@@ -1,4 +1,4 @@
-package com.bqliang.baddy.data
+package com.bqliang.baddyrank.core.network.data
 
 import kotlinx.serialization.Serializable
 

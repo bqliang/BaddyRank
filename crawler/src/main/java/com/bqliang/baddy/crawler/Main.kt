@@ -1,7 +1,7 @@
 package com.bqliang.baddy.crawler
 
-import com.bqliang.baddy.data.PlayerDto
-import com.bqliang.baddy.data.RankingDto
+import com.bqliang.baddyrank.core.network.data.PlayerDto
+import com.bqliang.baddyrank.core.network.data.RankingDto
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.okhttp.OkHttp
 import io.ktor.client.plugins.cookies.HttpCookies
