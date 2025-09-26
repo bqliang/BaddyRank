@@ -16,6 +16,8 @@ coroutines = "1.10.2"
 androidTools = "31.13.0"
 room = "2.8.1"
 ksp = "2.2.20-2.0.3"
+aallam-openai = "4.0.1"
+jsoup = "1.21.2"
 
 [bundles]
 androidx-compose-ui-test = ["androidx-compose-ui-test-manifest", "androidx-compose-ui-test-junit4"]
@@ -51,6 +53,10 @@ kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-
 # Coroutines
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+# OpenAI
+aallam-openai-client = { module = "com.aallam.openai:openai-client", version.ref = "aallam-openai" }
+# Jsoup
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
 
 # Dependencies of the included build-logic
 android-gradleApiPlugin = { group = "com.android.tools.build", name = "gradle-api", version.ref = "agp" }
