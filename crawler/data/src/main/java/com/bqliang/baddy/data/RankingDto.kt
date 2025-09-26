@@ -3,9 +3,9 @@ package com.bqliang.baddy.data
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Ranking(
+data class RankingDto(
     val rank: Int,
-    val players: List<Player>,
+    val players: List<PlayerDto>,
     val rankTrend: Int,
     val tournaments: Int? = null,
     val points: Int,

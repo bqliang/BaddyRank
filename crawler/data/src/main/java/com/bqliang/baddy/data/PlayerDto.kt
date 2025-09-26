@@ -3,7 +3,7 @@ package com.bqliang.baddy.data
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Player(
+data class PlayerDto(
     val id: String,
     val countryAbbreviation: String,
     val countryFlagUrl: String,
