@@ -62,6 +62,10 @@ jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
 hilt-core = { group = "com.google.dagger", name = "hilt-core", version.ref = "hilt" }
+# Room
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
 
 # Dependencies of the included build-logic
 android-gradleApiPlugin = { group = "com.android.tools.build", name = "gradle-api", version.ref = "agp" }
@@ -80,6 +84,7 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+room = { id = "androidx.room", version.ref = "room" }
 
 # Plugins defined by this project
 baddyrank-android-application = { id = "baddyrank.android.application" }
@@ -89,3 +94,5 @@ baddyrank-jvm-library = { id = "baddyrank.jvm.library" }
 baddyrank-jvm-application = { id = "baddyrank.jvm.application" }
 baddyrank-android-library-compose = { id = "baddyrank.android.library.compose" }
 baddyrank-hilt = { id = "baddyrank.hilt" }
+baddyrank-android-room = { id = "baddyrank.android.room" }
+
