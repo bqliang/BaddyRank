@@ -43,3 +43,4 @@ check(JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
 }
 include(":crawler")
 include(":crawler:data")
+include(":core:common")
