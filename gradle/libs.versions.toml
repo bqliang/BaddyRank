@@ -18,6 +18,7 @@ room = "2.8.1"
 ksp = "2.2.20-2.0.3"
 aallam-openai = "4.0.1"
 jsoup = "1.21.2"
+hilt = "2.56"
 
 [bundles]
 androidx-compose-ui-test = ["androidx-compose-ui-test-manifest", "androidx-compose-ui-test-junit4"]
@@ -57,6 +58,10 @@ kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-
 aallam-openai-client = { module = "com.aallam.openai:openai-client", version.ref = "aallam-openai" }
 # Jsoup
 jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+# Hilt
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+hilt-core = { group = "com.google.dagger", name = "hilt-core", version.ref = "hilt" }
 
 # Dependencies of the included build-logic
 android-gradleApiPlugin = { group = "com.android.tools.build", name = "gradle-api", version.ref = "agp" }
@@ -73,6 +78,8 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 
 # Plugins defined by this project
 baddyrank-android-application = { id = "baddyrank.android.application" }
@@ -81,3 +88,4 @@ baddyrank-android-application-compose = { id = "baddyrank.android.application.co
 baddyrank-jvm-library = { id = "baddyrank.jvm.library" }
 baddyrank-jvm-application = { id = "baddyrank.jvm.application" }
 baddyrank-android-library-compose = { id = "baddyrank.android.library.compose" }
+baddyrank-hilt = { id = "baddyrank.hilt" }

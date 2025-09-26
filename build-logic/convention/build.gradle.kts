@@ -61,5 +61,9 @@ gradlePlugin {
             id = libs.plugins.baddyrank.android.library.asProvider().get().pluginId
             implementationClass = "AndroidLibraryConventionPlugin"
         }
+        register("hilt") {
+            id = libs.plugins.baddyrank.hilt.get().pluginId
+            implementationClass = "HiltConventionPlugin"
+        }
     }
 }
