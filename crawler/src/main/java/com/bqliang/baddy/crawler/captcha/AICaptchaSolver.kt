@@ -11,13 +11,19 @@ import com.aallam.openai.client.OpenAI
  */
 class AICaptchaSolver(
     private val openAIClient: OpenAI,
-) : CaptchaSolver {
+    captchaDataCache: CaptchaDataCache
+) : CaptchaSolver, CaptchaDataCache by captchaDataCache {
     private companion object {
         const val MODEL_ID = "deepseek-chat"
         const val SYSTEM_PROMPT = "直接输出结果, 不要任何多余的解释! 也不要任何的前后缀以及单位等等"
     }
 
     override suspend fun solveTextCaptcha(question: String): String {
+        val cachedAnswer = getCacheCaptchaAnswer(question)
+        if (cachedAnswer != null) {
+            return cachedAnswer
+        }
+
         val chatCompletionRequest = ChatCompletionRequest(
             model = ModelId(MODEL_ID),
             messages = listOf(

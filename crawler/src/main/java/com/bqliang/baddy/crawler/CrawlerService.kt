@@ -1,5 +1,6 @@
 package com.bqliang.baddy.crawler
 
+import com.bqliang.baddy.crawler.captcha.CaptchaDataCache
 import com.bqliang.baddy.crawler.captcha.CaptchaSolver
 import com.bqliang.baddy.crawler.model.MatchType
 import com.bqliang.baddy.crawler.model.RankingType
@@ -87,9 +88,15 @@ class CrawlerService(
             header(HttpHeaders.Referrer, BASE_URL + "ranking.php")
         }
 
+        val cacheCaptchaSolver: CaptchaDataCache? = captchaSolver as? CaptchaDataCache
+
         if (!httpClient.hasCboClickCookie()) {
+            cacheCaptchaSolver?.removeCacheCaptchaData(question)
             error("Failed to get cbo_click_cookie after submitting captcha.")
         }
+
+        cacheCaptchaSolver?.saveCacheCaptchaData(question, answer)
+
         logger.info { "Successfully obtained cookie." }
     }
 
