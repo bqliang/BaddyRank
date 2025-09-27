@@ -24,6 +24,10 @@
 
     <!--  输出目的地 <appender> - 滚动文件 -->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <!-- append = false: 每次启动都会清空文件 -->
+        <append>false</append>
+
         <file>${LOG_HOME}/debug.log</file>
         <!-- <rollingPolicy>: 定义滚动策略。TimeBasedRollingPolicy 是基于时间的策略 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
