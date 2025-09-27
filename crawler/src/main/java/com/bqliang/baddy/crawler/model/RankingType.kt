@@ -1,6 +1,6 @@
-package com.bqliang.baddy.crawler
+package com.bqliang.baddy.crawler.model
 
-enum class RankingType(val code: String, val description: String) {
+enum class RankingType(val path: String, val description: String) {
     // 世界排名 - 代码 1
     WORLD_RANKING("ranking", "世界排名"),
 
@@ -15,8 +15,4 @@ enum class RankingType(val code: String, val description: String) {
 
     val lowercaseName: String
         get() = name.lowercase()
-
-    companion object {
-        fun fromCode(code: String): RankingType? = entries.find { it.code == code }
-    }
 }

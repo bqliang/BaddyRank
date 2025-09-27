@@ -1,4 +1,4 @@
-package com.bqliang.baddy.crawler
+package com.bqliang.baddy.crawler.model
 
 enum class MatchType(val code: Int, val description: String) {
     MEN_SINGLES(6, "男子单打"),

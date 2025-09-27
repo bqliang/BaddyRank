@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- debug="true" 打印日志配置的加载过程与内部状态信息 -->
+<configuration debug="true">
+
+    <!-- 定义存放日志文件的目录名 -->
+    <property name="LOG_HOME" value="logs" />
+    <!-- 输出到文件的日志格式 -->
+    <property name="LOG_PATTERN"
+        value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n" />
+    <!-- 输出到控制台的日志格式 -->
+    <property name="CONSOLE_LOG_PATTERN"
+        value="%d{yyyy-MM-dd HH:mm:ss.SSS} %cyan([%thread]) %highlight(%-5level) %boldMagenta(%logger{36}) - %msg%n" />
+
+    <!-- 输出目的地 <appender> - 控制台 -->
+    <!-- name 是唯一标识，class 指定了具体的实现 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <!-- <encoder>: 编码器，负责将日志事件（Log event）格式化成字符串 -->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--  输出目的地 <appender> - 滚动文件 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/debug.log</file>
+        <!-- <rollingPolicy>: 定义滚动策略。TimeBasedRollingPolicy 是基于时间的策略 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- <fileNamePattern>: 定义滚动归档后的日志文件命名规则。
+            %d{yyyy-MM-dd} 表示每天滚动一次。末尾的 .zip 会让 Logback 自动将归档的日志文件进行压缩 -->
+            <fileNamePattern>${LOG_HOME}/debug.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+
+            <!-- <maxHistory>: 控制归档文件的最大保留数量。这里是保留 30 天的日志 -->
+            <maxHistory>30</maxHistory>
+
+            <!-- <totalSizeCap>: 控制所有归档文件的总大小上限。超过 10GB 后，会从最旧的开始删除 -->
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- <logger> 用于为特定的包或类配置日志级别，从而实现对不同组件日志输出的精细控制 -->
+    <logger name="org.springframework" level="INFO" />
+
+    <!-- 根日志记录器 -->
+    <!-- 全局默认日志级别，意味着默认情况下所有级别的日志都会被处理。但上面 <logger> 的设置会覆盖这个全局设置 -->
+    <root level="TRACE">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>

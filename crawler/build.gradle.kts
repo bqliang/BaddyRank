@@ -25,6 +25,9 @@ dependencies {
     implementation(libs.jsoup)
     // Koin
     implementation(libs.koin.core)
+    // Log
+    implementation(libs.kotlin.logging)
+    implementation(libs.logback.classic)
 
     // Test
     testImplementation(libs.kotlin.test)
