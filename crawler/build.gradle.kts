@@ -23,6 +23,8 @@ dependencies {
     implementation(ktorLibs.client.logging)
     // Jsoup
     implementation(libs.jsoup)
+    // Koin
+    implementation(libs.koin.core)
 
     // Test
     testImplementation(libs.kotlin.test)

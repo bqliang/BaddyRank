@@ -19,6 +19,7 @@ ksp = "2.2.20-2.0.3"
 aallam-openai = "4.0.1"
 jsoup = "1.21.2"
 hilt = "2.56"
+koin = "4.1.1"
 
 [bundles]
 androidx-compose-ui-test = ["androidx-compose-ui-test-manifest", "androidx-compose-ui-test-junit4"]
@@ -66,6 +67,8 @@ hilt-core = { group = "com.google.dagger", name = "hilt-core", version.ref = "hi
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+# Koin
+koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin" }
 
 # Dependencies of the included build-logic
 android-gradleApiPlugin = { group = "com.android.tools.build", name = "gradle-api", version.ref = "agp" }
