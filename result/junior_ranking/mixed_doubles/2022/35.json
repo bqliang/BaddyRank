@@ -1,0 +1,1602 @@
+[
+    {
+        "rank": 1,
+        "players": [
+            {
+                "id": "2539",
+                "countryAbbreviation": "SRB",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/serbia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2539.jpg",
+                "chineseName": "安德拉·维特曼",
+                "englishName": "Andjela VITMAN"
+            }
+        ],
+        "rankTrend": 0,
+        "tournaments": 25,
+        "points": 14225
+    },
+    {
+        "rank": 2,
+        "players": [
+            {
+                "id": "2260",
+                "countryAbbreviation": "GER",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/germany.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2260_1698805726.jpg",
+                "chineseName": "朱莉娅·迈耶",
+                "englishName": "Julia MEYER"
+            }
+        ],
+        "rankTrend": 5,
+        "tournaments": 13,
+        "points": 12850
+    },
+    {
+        "rank": 3,
+        "players": [
+            {
+                "id": "3461",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3461_1710212876.jpg",
+                "chineseName": "卢卡斯·雷诺阿",
+                "englishName": "Lucas RENOIR"
+            }
+        ],
+        "rankTrend": 8,
+        "tournaments": 20,
+        "points": 12335
+    },
+    {
+        "rank": 3,
+        "players": [
+            {
+                "id": "2254",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2254.jpg",
+                "chineseName": "蒂娅·玛格丽特",
+                "englishName": "Tea MARGUERITTE"
+            }
+        ],
+        "rankTrend": 8,
+        "tournaments": 20,
+        "points": 12335
+    },
+    {
+        "rank": 5,
+        "players": [
+            {
+                "id": "3137",
+                "countryAbbreviation": "GER",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/germany.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3137_1709102719.jpg",
+                "chineseName": "贾恩·施莱沃伊特",
+                "englishName": "Jarne SCHLEVOIGT"
+            }
+        ],
+        "rankTrend": 10,
+        "tournaments": 13,
+        "points": 11985
+    },
+    {
+        "rank": 6,
+        "players": [
+            {
+                "id": "3955",
+                "countryAbbreviation": "RSA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/southafrica.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3955.jpg",
+                "chineseName": "艾米·阿克曼",
+                "englishName": "Amy ACKERMAN"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 11,
+        "points": 11555
+    },
+    {
+        "rank": 7,
+        "players": [
+            {
+                "id": "3183",
+                "countryAbbreviation": "NED",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/netherlands.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3183.jpg",
+                "chineseName": "克尔斯滕·德·威特",
+                "englishName": "Kirsten DE WIT"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 18,
+        "points": 11545
+    },
+    {
+        "rank": 8,
+        "players": [
+            {
+                "id": "3397",
+                "countryAbbreviation": "DEN",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/denmark.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3397_1730428113.jpg",
+                "chineseName": "哈尔特·约翰森",
+                "englishName": "Hjalte JOHANSEN"
+            }
+        ],
+        "rankTrend": 14,
+        "tournaments": 7,
+        "points": 11270
+    },
+    {
+        "rank": 8,
+        "players": [
+            {
+                "id": "3400",
+                "countryAbbreviation": "DEN",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/denmark.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3400_1730428059.jpg",
+                "chineseName": "艾玛·艾林·布劳纳",
+                "englishName": "Emma Irring BRAüNER"
+            }
+        ],
+        "rankTrend": 14,
+        "tournaments": 7,
+        "points": 11270
+    },
+    {
+        "rank": 10,
+        "players": [
+            {
+                "id": "2666",
+                "countryAbbreviation": "RSA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/southafrica.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2666_1714012954.jpg",
+                "chineseName": "罗伯特·怀特",
+                "englishName": "Robert WHITE"
+            }
+        ],
+        "rankTrend": -7,
+        "tournaments": 10,
+        "points": 11235
+    },
+    {
+        "rank": 11,
+        "players": [
+            {
+                "id": "3233",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3233_1710212466.jpg",
+                "chineseName": "梅尔·卡托恩",
+                "englishName": "Mael CATTOEN"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 14,
+        "points": 11085
+    },
+    {
+        "rank": 12,
+        "players": [
+            {
+                "id": "19287",
+                "countryAbbreviation": "RUS",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/russia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/19287_1749103942.jpg",
+                "chineseName": "叶戈尔·鲍里索夫",
+                "englishName": "Egor BORISOV"
+            }
+        ],
+        "rankTrend": -8,
+        "tournaments": 11,
+        "points": 10945
+    },
+    {
+        "rank": 13,
+        "players": [
+            {
+                "id": "5239",
+                "countryAbbreviation": "RUS",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/russia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/5239_1725848987.jpg",
+                "chineseName": "玛丽亚·戈卢贝娃",
+                "englishName": "Mariia GOLUBEVA"
+            }
+        ],
+        "rankTrend": -8,
+        "tournaments": 9,
+        "points": 10945
+    },
+    {
+        "rank": 14,
+        "players": [
+            {
+                "id": "2262",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2262_1710417260.jpg",
+                "chineseName": "卡米尔·波格南特",
+                "englishName": "Camille POGNANTE"
+            }
+        ],
+        "rankTrend": 0,
+        "tournaments": 16,
+        "points": 10785
+    },
+    {
+        "rank": 15,
+        "players": [
+            {
+                "id": "3364",
+                "countryAbbreviation": "ESP",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/spain.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3364.jpg",
+                "chineseName": "鲁本·加西亚",
+                "englishName": "Ruben GARCIA"
+            }
+        ],
+        "rankTrend": 2,
+        "tournaments": 12,
+        "points": 10375
+    },
+    {
+        "rank": 16,
+        "players": [
+            {
+                "id": "23914",
+                "countryAbbreviation": "IND",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/india.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/images/male.jpg",
+                "chineseName": "Ayan RASHID",
+                "englishName": "Ayan RASHID"
+            }
+        ],
+        "rankTrend": -8,
+        "tournaments": 8,
+        "points": 10350
+    },
+    {
+        "rank": 17,
+        "players": [
+            {
+                "id": "3083",
+                "countryAbbreviation": "IND",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/india.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3083.jpg",
+                "chineseName": "塔斯尼姆·米尔",
+                "englishName": "Tasnim MIR"
+            }
+        ],
+        "rankTrend": -9,
+        "tournaments": 7,
+        "points": 10350
+    },
+    {
+        "rank": 18,
+        "players": [
+            {
+                "id": "2719",
+                "countryAbbreviation": "ESP",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/spain.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2719.jpg",
+                "chineseName": "露西娅·罗德里格斯",
+                "englishName": "Lucia RODRIGUEZ"
+            }
+        ],
+        "rankTrend": 9,
+        "tournaments": 10,
+        "points": 10235
+    },
+    {
+        "rank": 19,
+        "players": [
+            {
+                "id": "2378",
+                "countryAbbreviation": "IND",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/india.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2378.jpg",
+                "chineseName": "斯威达帕纳·潘达",
+                "englishName": "Swetaparna PANDA"
+            }
+        ],
+        "rankTrend": -6,
+        "tournaments": 4,
+        "points": 9900
+    },
+    {
+        "rank": 20,
+        "players": [
+            {
+                "id": "3439",
+                "countryAbbreviation": "HUN",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/hungary.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3439_1715333532.jpg",
+                "chineseName": "尼科尔·萨比娜·维托尔",
+                "englishName": "Nikol Szabina VETOR"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 11,
+        "points": 9630
+    },
+    {
+        "rank": 21,
+        "players": [
+            {
+                "id": "3438",
+                "countryAbbreviation": "HUN",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/hungary.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3438_1715334901.jpg",
+                "chineseName": "基恩·加博尔·基约斯",
+                "englishName": "Kean Gabor KIGYOS"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 10,
+        "points": 9630
+    },
+    {
+        "rank": 22,
+        "players": [
+            {
+                "id": "4987",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/4987_1710212716.jpg",
+                "chineseName": "艾尔莎·雅各布",
+                "englishName": "Elsa JACOB"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 15,
+        "points": 9570
+    },
+    {
+        "rank": 23,
+        "players": [
+            {
+                "id": "3288",
+                "countryAbbreviation": "ESP",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/spain.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3288_1718158998.jpg",
+                "chineseName": "罗德里戈·桑胡尔霍",
+                "englishName": "Rodrigo SANJURJO"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 11,
+        "points": 9500
+    },
+    {
+        "rank": 24,
+        "players": [
+            {
+                "id": "3384",
+                "countryAbbreviation": "GER",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/germany.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3384_1720691726.jpg",
+                "chineseName": "乔纳森·德雷斯普",
+                "englishName": "Jonathan DRESP"
+            }
+        ],
+        "rankTrend": 2,
+        "tournaments": 13,
+        "points": 9135
+    },
+    {
+        "rank": 25,
+        "players": [
+            {
+                "id": "2751",
+                "countryAbbreviation": "USA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/usa.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2751.jpg",
+                "chineseName": "李欣梅",
+                "englishName": "Allison LEE"
+            }
+        ],
+        "rankTrend": -6,
+        "tournaments": 8,
+        "points": 9050
+    },
+    {
+        "rank": 26,
+        "players": [
+            {
+                "id": "3258",
+                "countryAbbreviation": "ENG",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/england.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3258.jpg",
+                "chineseName": "埃斯特尔·范·柳恩",
+                "englishName": "Estelle VAN LEEUWEN"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 14,
+        "points": 8975
+    },
+    {
+        "rank": 27,
+        "players": [
+            {
+                "id": "3182",
+                "countryAbbreviation": "NED",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/netherlands.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3182_1710312009.jpg",
+                "chineseName": "诺亚·哈斯",
+                "englishName": "Noah HAASE"
+            }
+        ],
+        "rankTrend": 15,
+        "tournaments": 6,
+        "points": 8975
+    },
+    {
+        "rank": 28,
+        "players": [
+            {
+                "id": "9349",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/9349_1733392709.jpg",
+                "chineseName": "约翰·巴尔贝里",
+                "englishName": "Yohan BARBIERI"
+            }
+        ],
+        "rankTrend": 1,
+        "tournaments": 14,
+        "points": 8750
+    },
+    {
+        "rank": 29,
+        "players": [
+            {
+                "id": "9820",
+                "countryAbbreviation": "SRB",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/serbia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/9820_1709286993.jpg",
+                "chineseName": "维克多·彼得罗维奇",
+                "englishName": "Viktor PETROVIC"
+            }
+        ],
+        "rankTrend": 17,
+        "tournaments": 6,
+        "points": 8700
+    },
+    {
+        "rank": 30,
+        "players": [
+            {
+                "id": "3290",
+                "countryAbbreviation": "ESP",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/spain.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3290_1752823939.jpg",
+                "chineseName": "尼科尔·卡鲁拉",
+                "englishName": "Nikol CARULLA"
+            }
+        ],
+        "rankTrend": 1,
+        "tournaments": 10,
+        "points": 8560
+    },
+    {
+        "rank": 31,
+        "players": [
+            {
+                "id": "5591",
+                "countryAbbreviation": "UGA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/uganda.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/5591_1752732057.jpg",
+                "chineseName": "法迪拉·沙米卡·穆罕默德·拉菲",
+                "englishName": "Fadilah Shamika MOHAMED RAFI"
+            }
+        ],
+        "rankTrend": -7,
+        "tournaments": 8,
+        "points": 8555
+    },
+    {
+        "rank": 32,
+        "players": [
+            {
+                "id": "3479",
+                "countryAbbreviation": "AUT",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/austria.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3479_1702449237.jpg",
+                "chineseName": "西蒙·拜洛尼",
+                "englishName": "Simon BAILONI"
+            }
+        ],
+        "rankTrend": 2,
+        "tournaments": 17,
+        "points": 8385
+    },
+    {
+        "rank": 33,
+        "players": [
+            {
+                "id": "4991",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/4991_1717062089.jpg",
+                "chineseName": "赫夫琳·克雷斯佩尔",
+                "englishName": "Herveline CRESPEL"
+            }
+        ],
+        "rankTrend": -5,
+        "tournaments": 11,
+        "points": 8340
+    },
+    {
+        "rank": 34,
+        "players": [
+            {
+                "id": "20231",
+                "countryAbbreviation": "AUT",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/austria.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/20231.jpg",
+                "chineseName": "莉娜·伦波德",
+                "englishName": "Lena RUMPOLD"
+            }
+        ],
+        "rankTrend": 1,
+        "tournaments": 13,
+        "points": 8185
+    },
+    {
+        "rank": 35,
+        "players": [
+            {
+                "id": "2779",
+                "countryAbbreviation": "INA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/indonesia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2779.jpg",
+                "chineseName": "穆赫·普特拉·厄维安西亚",
+                "englishName": "Muh Putra ERWIANSYAH"
+            }
+        ],
+        "rankTrend": -5,
+        "tournaments": 6,
+        "points": 8120
+    },
+    {
+        "rank": 36,
+        "players": [
+            {
+                "id": "3440",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3440_1710212966.jpg",
+                "chineseName": "纳坦·贝加",
+                "englishName": "Natan BEGGA"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 13,
+        "points": 7940
+    },
+    {
+        "rank": 37,
+        "players": [
+            {
+                "id": "3305",
+                "countryAbbreviation": "SUI",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/switzerland.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3305_1718593759.jpg",
+                "chineseName": "洛兰·乔利亚特",
+                "englishName": "Lorrain JOLIAT"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 12,
+        "points": 7880
+    },
+    {
+        "rank": 38,
+        "players": [
+            {
+                "id": "3441",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3441_1710213070.jpg",
+                "chineseName": "巴蒂斯特·拉巴特",
+                "englishName": "Baptiste LABARTHE"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 9,
+        "points": 7540
+    },
+    {
+        "rank": 39,
+        "players": [
+            {
+                "id": "2766",
+                "countryAbbreviation": "INA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/indonesia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2766.jpg",
+                "chineseName": "普斯帕·罗莎莉亚·达马扬蒂",
+                "englishName": "Puspa Rosalia DAMAYANTI"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 5,
+        "points": 7360
+    },
+    {
+        "rank": 40,
+        "players": [
+            {
+                "id": "3954",
+                "countryAbbreviation": "MEX",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/mexico.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3954.jpg",
+                "chineseName": "米里亚姆·杰奎琳·罗德里格斯·佩雷斯",
+                "englishName": "Miriam Jacqueline RODRIGUEZ PEREZ"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 9,
+        "points": 7300
+    },
+    {
+        "rank": 41,
+        "players": [
+            {
+                "id": "3176",
+                "countryAbbreviation": "BUL",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/bulgaria.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3176_1717122098.jpg",
+                "chineseName": "斯坦尼米尔·捷尔齐耶夫",
+                "englishName": "Stanimir TERZIEV"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 9,
+        "points": 7295
+    },
+    {
+        "rank": 42,
+        "players": [
+            {
+                "id": "2722",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2722.jpg",
+                "chineseName": "艾米莉·德鲁因",
+                "englishName": "Emilie DROUIN"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 11,
+        "points": 7280
+    },
+    {
+        "rank": 43,
+        "players": [
+            {
+                "id": "3416",
+                "countryAbbreviation": "SLO",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/slovenia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3416_1751968061.jpg",
+                "chineseName": "安雅·乔丹",
+                "englishName": "Anja JORDAN"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 10,
+        "points": 7255
+    },
+    {
+        "rank": 44,
+        "players": [
+            {
+                "id": "3208",
+                "countryAbbreviation": "BUL",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/bulgaria.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3208_1717142922.jpg",
+                "chineseName": "茨维蒂娜·波皮瓦诺娃",
+                "englishName": "Tsvetina POPIVANOVA"
+            }
+        ],
+        "rankTrend": 0,
+        "tournaments": 8,
+        "points": 6995
+    },
+    {
+        "rank": 45,
+        "players": [
+            {
+                "id": "3520",
+                "countryAbbreviation": "GER",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/germany.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3520_1712730996.jpg",
+                "chineseName": "尼古拉·斯图普利希",
+                "englishName": "Nikolaj STUPPLICH"
+            }
+        ],
+        "rankTrend": 20,
+        "tournaments": 8,
+        "points": 6970
+    },
+    {
+        "rank": 46,
+        "players": [
+            {
+                "id": "2767",
+                "countryAbbreviation": "INA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/indonesia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2767.jpg",
+                "chineseName": "杰西卡·玛雅·瑞斯马瓦达尼",
+                "englishName": "Jessica Maya RISMAWARDANI"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 6,
+        "points": 6950
+    },
+    {
+        "rank": 47,
+        "players": [
+            {
+                "id": "3275",
+                "countryAbbreviation": "DEN",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/denmark.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3275_1730365861.jpg",
+                "chineseName": "索菲·鲁克",
+                "englishName": "Sofie RØJKJÆR"
+            }
+        ],
+        "rankTrend": 55,
+        "tournaments": 5,
+        "points": 6930
+    },
+    {
+        "rank": 48,
+        "players": [
+            {
+                "id": "2747",
+                "countryAbbreviation": "USA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/usa.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2747.jpg",
+                "chineseName": "科迪",
+                "englishName": "Kodi Tang LEE"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 8,
+        "points": 6750
+    },
+    {
+        "rank": 49,
+        "players": [
+            {
+                "id": "3336",
+                "countryAbbreviation": "INA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/indonesia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3336_1725266708.jpg",
+                "chineseName": "马尔万·法扎",
+                "englishName": "Marwan FAZA"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 4,
+        "points": 6710
+    },
+    {
+        "rank": 50,
+        "players": [
+            {
+                "id": "2258",
+                "countryAbbreviation": "GER",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/germany.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2258_1721037258.jpg",
+                "chineseName": "埃琳·森夏恩",
+                "englishName": "Elina SONNENSCHEIN"
+            }
+        ],
+        "rankTrend": 20,
+        "tournaments": 10,
+        "points": 6440
+    },
+    {
+        "rank": 51,
+        "players": [
+            {
+                "id": "3269",
+                "countryAbbreviation": "GUA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/guatemala.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3269.jpg",
+                "chineseName": "耶森·埃斯莱特 德尔·西德·阿尔瓦雷斯",
+                "englishName": "Yeison Esleiter DEL CID ALVAREZ"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 9,
+        "points": 6435
+    },
+    {
+        "rank": 52,
+        "players": [
+            {
+                "id": "2256",
+                "countryAbbreviation": "GER",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/germany.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2256_1698828467.jpg",
+                "chineseName": "卡拉·西布雷希特",
+                "englishName": "Cara SIEBRECHT"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 8,
+        "points": 6225
+    },
+    {
+        "rank": 53,
+        "players": [
+            {
+                "id": "3433",
+                "countryAbbreviation": "SUI",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/switzerland.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3433_1738742479.jpg",
+                "chineseName": "露西·阿米盖",
+                "englishName": "Lucie AMIGUET"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 14,
+        "points": 6220
+    },
+    {
+        "rank": 54,
+        "players": [
+            {
+                "id": "14891",
+                "countryAbbreviation": "GUA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/guatemala.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/14891_1710834920.gif",
+                "chineseName": "玛利亚娜·帕拉西奥斯·卡斯蒂略",
+                "englishName": "Mariana PALACIOS CASTILLO"
+            }
+        ],
+        "rankTrend": 0,
+        "tournaments": 7,
+        "points": 6215
+    },
+    {
+        "rank": 55,
+        "players": [
+            {
+                "id": "5574",
+                "countryAbbreviation": "UGA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/uganda.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/5574_1702892042.jpg",
+                "chineseName": "贾斯汀·特蕾西·纳鲁沃扎",
+                "englishName": "Justine Tracy NALUWOOZA"
+            }
+        ],
+        "rankTrend": 0,
+        "tournaments": 7,
+        "points": 6195
+    },
+    {
+        "rank": 56,
+        "players": [
+            {
+                "id": "3313",
+                "countryAbbreviation": "SLO",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/slovenia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3313_1752724093.jpg",
+                "chineseName": "斯佩拉·阿利奇",
+                "englishName": "Spela ALIČ"
+            }
+        ],
+        "rankTrend": 0,
+        "tournaments": 18,
+        "points": 6160
+    },
+    {
+        "rank": 57,
+        "players": [
+            {
+                "id": "4992",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/4992_1719298977.jpg",
+                "chineseName": "凯瑟尔·德斯莫茨-查昆",
+                "englishName": "Kathell DESMOTS-CHACUN"
+            }
+        ],
+        "rankTrend": 0,
+        "tournaments": 12,
+        "points": 6160
+    },
+    {
+        "rank": 58,
+        "players": [
+            {
+                "id": "10147",
+                "countryAbbreviation": "SUI",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/switzerland.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/10147_1749540347.jpg",
+                "chineseName": "马西斯·占塔凯松",
+                "englishName": "Mathis CHANTHAKESONE"
+            }
+        ],
+        "rankTrend": 0,
+        "tournaments": 12,
+        "points": 6130
+    },
+    {
+        "rank": 59,
+        "players": [
+            {
+                "id": "2780",
+                "countryAbbreviation": "INA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/indonesia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2780.jpg",
+                "chineseName": "帕特拉·哈拉潘·林多林多",
+                "englishName": "Patra Harapan RINDORINDO"
+            }
+        ],
+        "rankTrend": 0,
+        "tournaments": 6,
+        "points": 6120
+    },
+    {
+        "rank": 60,
+        "players": [
+            {
+                "id": "3359",
+                "countryAbbreviation": "UKR",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/ukraine.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3359_1709105513.jpg",
+                "chineseName": "叶夫赫尼亚·坎特米尔",
+                "englishName": "Yevheniia KANTEMYR"
+            }
+        ],
+        "rankTrend": -7,
+        "tournaments": 9,
+        "points": 5955
+    },
+    {
+        "rank": 61,
+        "players": [
+            {
+                "id": "2717",
+                "countryAbbreviation": "ESP",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/spain.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2717_1717406750.jpg",
+                "chineseName": "埃琳娜·佩伊",
+                "englishName": "Elena PAYá"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 10,
+        "points": 5940
+    },
+    {
+        "rank": 62,
+        "players": [
+            {
+                "id": "3386",
+                "countryAbbreviation": "GER",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/germany.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3386_1706498158.jpg",
+                "chineseName": "安娜·梅吉科夫斯基",
+                "englishName": "Anna MEJIKOVSKIY"
+            }
+        ],
+        "rankTrend": 22,
+        "tournaments": 11,
+        "points": 5875
+    },
+    {
+        "rank": 63,
+        "players": [
+            {
+                "id": "15372",
+                "countryAbbreviation": "RUS",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/russia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/15372_1750214663.jpg",
+                "chineseName": "阿丽莎·基隆达",
+                "englishName": "Alisa KIRONDA"
+            }
+        ],
+        "rankTrend": -14,
+        "tournaments": 7,
+        "points": 5800
+    },
+    {
+        "rank": 64,
+        "players": [
+            {
+                "id": "15317",
+                "countryAbbreviation": "GUA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/guatemala.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/15317_1739526011.jpg",
+                "chineseName": "卡罗琳娜·奥雷利亚娜·阿登",
+                "englishName": "Karolina ORELLANA ARDON"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 9,
+        "points": 5795
+    },
+    {
+        "rank": 65,
+        "players": [
+            {
+                "id": "2776",
+                "countryAbbreviation": "THA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/thailand.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2776.jpg",
+                "chineseName": "西拉达·荣皮布恩索菲特",
+                "englishName": "Sirada ROONGPIBOONSOPIT"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 6,
+        "points": 5790
+    },
+    {
+        "rank": 66,
+        "players": [
+            {
+                "id": "3783",
+                "countryAbbreviation": "UKR",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/ukraine.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3783_1717655671.jpg",
+                "chineseName": "阿米娜·里森科",
+                "englishName": "Amina LYSENKO"
+            }
+        ],
+        "rankTrend": -21,
+        "tournaments": 12,
+        "points": 5740
+    },
+    {
+        "rank": 67,
+        "players": [
+            {
+                "id": "3330",
+                "countryAbbreviation": "NED",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/netherlands.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3330_1710321844.jpg",
+                "chineseName": "梅尔特洛斯",
+                "englishName": "Meerte LOOS"
+            }
+        ],
+        "rankTrend": 19,
+        "tournaments": 9,
+        "points": 5585
+    },
+    {
+        "rank": 68,
+        "players": [
+            {
+                "id": "3454",
+                "countryAbbreviation": "GER",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/germany.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3454_1698743551.jpg",
+                "chineseName": "大卫·埃克林",
+                "englishName": "David ECKERLIN"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 9,
+        "points": 5485
+    },
+    {
+        "rank": 69,
+        "players": [
+            {
+                "id": "19286",
+                "countryAbbreviation": "RUS",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/russia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/19286_1749439578.jpg",
+                "chineseName": "马克西姆·奥格洛布林",
+                "englishName": "Maksim OGLOBLIN"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 5,
+        "points": 5480
+    },
+    {
+        "rank": 70,
+        "players": [
+            {
+                "id": "5013",
+                "countryAbbreviation": "CZE",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/czechrepublic.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/5013_1716457943.jpg",
+                "chineseName": "扬·拉兹尔",
+                "englishName": "Jan RÁZL"
+            }
+        ],
+        "rankTrend": 3,
+        "tournaments": 6,
+        "points": 5460
+    },
+    {
+        "rank": 71,
+        "players": [
+            {
+                "id": "5262",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/5262_1717061977.jpg",
+                "chineseName": "阿努克·纳姆博特",
+                "englishName": "Anouk NAMBOT"
+            }
+        ],
+        "rankTrend": 5,
+        "tournaments": 12,
+        "points": 5450
+    },
+    {
+        "rank": 72,
+        "players": [
+            {
+                "id": "14803",
+                "countryAbbreviation": "RSA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/southafrica.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/images/female.jpg",
+                "chineseName": "Diane OLIVIER",
+                "englishName": "Diane OLIVIER"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 8,
+        "points": 5435
+    },
+    {
+        "rank": 73,
+        "players": [
+            {
+                "id": "3216",
+                "countryAbbreviation": "ESP",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/spain.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3216_1717383180.jpg",
+                "chineseName": "丹尼尔·弗兰科",
+                "englishName": "Daniel FRANCO"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 10,
+        "points": 5425
+    },
+    {
+        "rank": 74,
+        "players": [
+            {
+                "id": "3462",
+                "countryAbbreviation": "SLO",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/slovenia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3462_1715326471.jpg",
+                "chineseName": "扬·克鲁帕克",
+                "englishName": "Jan KRUMPAK"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 8,
+        "points": 5390
+    },
+    {
+        "rank": 75,
+        "players": [
+            {
+                "id": "20193",
+                "countryAbbreviation": "POL",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/poland.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/20193_1713852060.jpg",
+                "chineseName": "朱莉娅·斯坦凯维奇",
+                "englishName": "Julia STANKIEWICZ"
+            }
+        ],
+        "rankTrend": 56,
+        "tournaments": 4,
+        "points": 5370
+    },
+    {
+        "rank": 76,
+        "players": [
+            {
+                "id": "3133",
+                "countryAbbreviation": "POR",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/portugal.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3133.jpg",
+                "chineseName": "比阿特丽斯·罗伯托",
+                "englishName": "Beatriz ROBERTO"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 8,
+        "points": 5300
+    },
+    {
+        "rank": 77,
+        "players": [
+            {
+                "id": "3064",
+                "countryAbbreviation": "INA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/indonesia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3064_1698305210.jpg",
+                "chineseName": "维雷尔·尤斯汀·穆利亚",
+                "englishName": "Verrell Yustin MULIA"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 3,
+        "points": 5230
+    },
+    {
+        "rank": 77,
+        "players": [
+            {
+                "id": "2786",
+                "countryAbbreviation": "INA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/indonesia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2786.jpg",
+                "chineseName": "伯纳丁·阿尼迪亚·瓦尔达纳",
+                "englishName": "Bernadine Anindya WARDANA"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 3,
+        "points": 5230
+    },
+    {
+        "rank": 79,
+        "players": [
+            {
+                "id": "3357",
+                "countryAbbreviation": "UKR",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/ukraine.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3357_1717654173.jpg",
+                "chineseName": "叶夫赫尼·斯托洛沃伊",
+                "englishName": "Yevhenii STOLOVOI"
+            }
+        ],
+        "rankTrend": -15,
+        "tournaments": 7,
+        "points": 5215
+    },
+    {
+        "rank": 80,
+        "players": [
+            {
+                "id": "3475",
+                "countryAbbreviation": "LUX",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/luxembourg.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3475_1713755409.jpg",
+                "chineseName": "雅尼克·费尔特斯",
+                "englishName": "Yannick FELTES"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 11,
+        "points": 5200
+    },
+    {
+        "rank": 81,
+        "players": [
+            {
+                "id": "9431",
+                "countryAbbreviation": "GUA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/guatemala.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/9431_1727681674.jpg",
+                "chineseName": "迭戈·特鲁希略·马雷罗",
+                "englishName": "Diego TRUJILLO MARRERO"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 5,
+        "points": 5170
+    },
+    {
+        "rank": 82,
+        "players": [
+            {
+                "id": "21705",
+                "countryAbbreviation": "BEL",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/belgium.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/21705_1715845114.jpg",
+                "chineseName": "沃尔夫·霍埃贝克",
+                "englishName": "Wolf HOEBEKE"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 11,
+        "points": 5120
+    },
+    {
+        "rank": 83,
+        "players": [
+            {
+                "id": "9774",
+                "countryAbbreviation": "CRO",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/croatia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/9774_1749003046.jpg",
+                "chineseName": "伊沃·泽坎",
+                "englishName": "Ivor ZEKAN"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 12,
+        "points": 5100
+    },
+    {
+        "rank": 84,
+        "players": [
+            {
+                "id": "2356",
+                "countryAbbreviation": "IND",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/india.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/2356_1714444222.jpg",
+                "chineseName": "伊沙尼·巴鲁阿",
+                "englishName": "Isharani BARUAH"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 2,
+        "points": 5000
+    },
+    {
+        "rank": 84,
+        "players": [
+            {
+                "id": "3138",
+                "countryAbbreviation": "JPN",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/japan.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3138.jpg",
+                "chineseName": "谷冈大后",
+                "englishName": "Daigo TANIOKA"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 2,
+        "points": 5000
+    },
+    {
+        "rank": 84,
+        "players": [
+            {
+                "id": "3139",
+                "countryAbbreviation": "JPN",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/japan.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3139.jpg",
+                "chineseName": "田口真彩",
+                "englishName": "Maya TAGUCHI"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 2,
+        "points": 5000
+    },
+    {
+        "rank": 87,
+        "players": [
+            {
+                "id": "3232",
+                "countryAbbreviation": "SUI",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/switzerland.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3232_1718595299.jpg",
+                "chineseName": "尼古拉斯·弗兰康维尔",
+                "englishName": "Nicolas FRANCONVILLE"
+            }
+        ],
+        "rankTrend": 17,
+        "tournaments": 16,
+        "points": 4875
+    },
+    {
+        "rank": 88,
+        "players": [
+            {
+                "id": "15476",
+                "countryAbbreviation": "HUN",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/hungary.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/images/female.jpg",
+                "chineseName": "Tanya Tamara VETOR",
+                "englishName": "Tanya Tamara VETOR"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 5,
+        "points": 4800
+    },
+    {
+        "rank": 89,
+        "players": [
+            {
+                "id": "3205",
+                "countryAbbreviation": "CZE",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/czechrepublic.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3205_1716794297.jpg",
+                "chineseName": "凯特伊娜·科利阿什奥瓦",
+                "englishName": "KateřIna KOLIáŠOVá"
+            }
+        ],
+        "rankTrend": -1,
+        "tournaments": 6,
+        "points": 4785
+    },
+    {
+        "rank": 90,
+        "players": [
+            {
+                "id": "3758",
+                "countryAbbreviation": "UKR",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/ukraine.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3758_1717654659.jpg",
+                "chineseName": "雅娜·索布科",
+                "englishName": "Yana SOBKO"
+            }
+        ],
+        "rankTrend": -29,
+        "tournaments": 5,
+        "points": 4780
+    },
+    {
+        "rank": 91,
+        "players": [
+            {
+                "id": "9370",
+                "countryAbbreviation": "MRI",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/mauritius.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/9370_1713493331.jpg",
+                "chineseName": "海姆蒂什·赖·努达",
+                "englishName": "Khemtish Rai NUNDAH"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 4,
+        "points": 4775
+    },
+    {
+        "rank": 92,
+        "players": [
+            {
+                "id": "15288",
+                "countryAbbreviation": "DOM",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/dominicanrepublic.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/images/female.jpg",
+                "chineseName": "Lia LOCKWARD",
+                "englishName": "Lia LOCKWARD"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 6,
+        "points": 4725
+    },
+    {
+        "rank": 93,
+        "players": [
+            {
+                "id": "21698",
+                "countryAbbreviation": "SRB",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/serbia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/21698_1754968051.jpg",
+                "chineseName": "亚历山大·约维奇",
+                "englishName": "Aleksandar JOVICIC"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 6,
+        "points": 4700
+    },
+    {
+        "rank": 94,
+        "players": [
+            {
+                "id": "3304",
+                "countryAbbreviation": "AUS",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/australia.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3304.jpg",
+                "chineseName": "于亚贝",
+                "englishName": "Jack YU"
+            }
+        ],
+        "rankTrend": -2,
+        "tournaments": 5,
+        "points": 4655
+    },
+    {
+        "rank": 95,
+        "players": [
+            {
+                "id": "3355",
+                "countryAbbreviation": "SUI",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/switzerland.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3355.jpg",
+                "chineseName": "维拉·阿彭策勒",
+                "englishName": "Vera APPENZELLER"
+            }
+        ],
+        "rankTrend": 37,
+        "tournaments": 13,
+        "points": 4645
+    },
+    {
+        "rank": 96,
+        "players": [
+            {
+                "id": "3748",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3748_1716975213.jpg",
+                "chineseName": "基米·洛旺",
+                "englishName": "Kimi LOVANG"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 15,
+        "points": 4640
+    },
+    {
+        "rank": 97,
+        "players": [
+            {
+                "id": "15337",
+                "countryAbbreviation": "UGA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/uganda.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/images/female.jpg",
+                "chineseName": "Diya CHETAN MODI",
+                "englishName": "Diya CHETAN MODI"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 6,
+        "points": 4630
+    },
+    {
+        "rank": 98,
+        "players": [
+            {
+                "id": "18135",
+                "countryAbbreviation": "FRA",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/france.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/images/male.jpg",
+                "chineseName": "Titouan HOAREAU",
+                "englishName": "Titouan HOAREAU"
+            }
+        ],
+        "rankTrend": -3,
+        "tournaments": 6,
+        "points": 4600
+    },
+    {
+        "rank": 99,
+        "players": [
+            {
+                "id": "5865",
+                "countryAbbreviation": "ARG",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/argentina.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/5865_1702953467.jpg",
+                "chineseName": "瓜尔迪·爱奥娜·安吉丽娜",
+                "englishName": "GUALDI Iona Angelina"
+            }
+        ],
+        "rankTrend": -14,
+        "tournaments": 6,
+        "points": 4590
+    },
+    {
+        "rank": 100,
+        "players": [
+            {
+                "id": "3496",
+                "countryAbbreviation": "GER",
+                "countryFlagUrl": "https://www.badmintoncn.com/cbo_star/images/bwflag/germany.png",
+                "avatarUrl": "https://www.badmintoncn.com/cbo_star/upstar/3496_1698743333.jpg",
+                "chineseName": "艾米莉·莱曼",
+                "englishName": "Amelie LEHMANN"
+            }
+        ],
+        "rankTrend": -4,
+        "tournaments": 8,
+        "points": 4565
+    }
+]
