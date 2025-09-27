@@ -28,8 +28,6 @@ class CrawlerService(
         matchType: MatchType,
         rw: String? = "",
     ): List<RankingDto> {
-        ensureSessionIsValid()
-
         val document = getRankingPage(rankingType, matchType, rw)
 
         if ("验证" in document.title()) {
@@ -47,7 +45,7 @@ class CrawlerService(
     /**
      * 确保 cbo_click_cookie 存在，如果不存在，则通过验证码获取。
      */
-    private suspend fun ensureSessionIsValid() {
+    suspend fun ensureSessionIsValid() {
         if (httpClient.hasCboClickCookie()) {
             logger.info { "Cookie check passed." }
             return

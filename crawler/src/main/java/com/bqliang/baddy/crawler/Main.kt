@@ -23,6 +23,7 @@ fun main(): Unit = runBlocking {
     val koin = koinApp.koin
 
     val crawlerService: CrawlerService = koin.get()
+    crawlerService.ensureSessionIsValid()
 
     RankingType.entries.forEach { rankingType ->
         MatchType.entries.forEach { matchType ->
