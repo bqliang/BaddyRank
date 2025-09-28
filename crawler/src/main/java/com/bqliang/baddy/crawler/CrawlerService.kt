@@ -14,6 +14,7 @@ import io.ktor.client.request.parameter
 import io.ktor.http.HttpHeaders
 import io.ktor.http.Parameters
 import io.ktor.http.path
+import kotlinx.coroutines.CancellationException
 import org.jsoup.nodes.Document
 
 private val logger = KotlinLogging.logger {  }
@@ -35,7 +36,7 @@ class CrawlerService(
         }
 
         if ("数据有误" in document.text()) {
-            error("The website returned a 'data error' message.")
+            throw CancellationException("The website return a '数据有误' message.")
         }
 
         return document.parseRankTable()
