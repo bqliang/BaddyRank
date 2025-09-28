@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.baddyrank.android.application)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.baddyrank.android.application.compose)
+    alias(libs.plugins.baddyrank.hilt)
 }
 
 android {
