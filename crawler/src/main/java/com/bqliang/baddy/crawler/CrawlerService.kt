@@ -2,8 +2,8 @@ package com.bqliang.baddy.crawler
 
 import com.bqliang.baddy.crawler.captcha.CaptchaDataCache
 import com.bqliang.baddy.crawler.captcha.CaptchaSolver
-import com.bqliang.baddy.crawler.model.MatchType
-import com.bqliang.baddy.crawler.model.RankingType
+import com.bqliang.baddy.crawler.model.DisciplineDto
+import com.bqliang.baddy.crawler.model.RankingCategoryDto
 import com.bqliang.baddyrank.core.network.data.RankingDto
 import io.github.oshai.kotlinlogging.KotlinLogging
 import io.ktor.client.HttpClient
@@ -25,11 +25,11 @@ class CrawlerService(
     private val captchaSolver: CaptchaSolver,
 ) {
     suspend fun fetchRanking(
-        rankingType: RankingType,
-        matchType: MatchType,
+        rankingCategory: RankingCategoryDto,
+        discipline: DisciplineDto,
         rw: String? = "",
     ): List<RankingDto> {
-        val document = getRankingPage(rankingType, matchType, rw)
+        val document = getRankingPage(rankingCategory, discipline, rw)
 
         if ("验证" in document.title()) {
             error("Captcha page appeared unexpectedly.")
@@ -100,14 +100,14 @@ class CrawlerService(
     }
 
     private suspend fun getRankingPage(
-        rankingType: RankingType,
-        matchType: MatchType,
+        rankingCategory: RankingCategoryDto,
+        discipline: DisciplineDto,
         rw: String? = "",
     ): Document {
         return httpClient.get {
             url {
-                path("${rankingType.path}.php")
-                parameter("type", matchType.code)
+                path("${rankingCategory.path}.php")
+                parameter("type", discipline.code)
                 if (!rw.isNullOrEmpty()) {
                     parameter("rw", rw)
                 }
