@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalSerializationApi::class)
 
-package com.bqliang.baddy.crawler
+package com.bqliang.baddy.crawler.util
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
