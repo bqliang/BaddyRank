@@ -1,8 +1,5 @@
 package com.bqliang.baddy.crawler.model
 
-import kotlinx.serialization.Serializable
-
-@Serializable
 enum class DisciplineDto(val code: Int, val description: String) {
     MEN_SINGLES(6, "男子单打"),
     WOMEN_SINGLES(7, "女子单打"),
