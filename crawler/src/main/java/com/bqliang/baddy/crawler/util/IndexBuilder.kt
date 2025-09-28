@@ -1,8 +1,11 @@
 package com.bqliang.baddy.crawler.util
 
+import com.bqliang.baddy.crawler.model.Discipline
+import com.bqliang.baddy.crawler.model.RankingCategory
 import com.bqliang.baddyrank.core.network.data.YearAvailabilityDto
 import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
 
@@ -37,4 +40,15 @@ suspend fun buildIndexJsonFromDir(dir: File): Unit = withContext(Dispatchers.IO)
 
     val indexFile = File(dir, "index.json")
     availableData.saveDataAsJson(indexFile)
+}
+
+suspend fun buildAllIndexJson() = withContext(Dispatchers.Default) {
+    RankingCategory.entries.forEach { rankingCategory ->
+        Discipline.entries.forEach { discipline ->
+            val dir = File("result" + File.separator + rankingCategory.lowercaseName + File.separator + discipline.lowercaseName)
+            launch {
+                buildIndexJsonFromDir(dir)
+            }
+        }
+    }
 }
