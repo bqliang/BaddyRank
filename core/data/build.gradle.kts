@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.baddyrank.android.library)
+    alias(libs.plugins.baddyrank.hilt)
 }
 
 android {

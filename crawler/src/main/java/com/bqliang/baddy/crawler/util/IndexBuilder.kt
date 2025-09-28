@@ -1,7 +1,7 @@
 package com.bqliang.baddy.crawler.util
 
-import com.bqliang.baddy.crawler.model.Discipline
-import com.bqliang.baddy.crawler.model.RankingCategory
+import com.bqliang.baddyrank.core.model.data.Discipline
+import com.bqliang.baddyrank.core.model.data.RankingCategory
 import com.bqliang.baddyrank.core.network.data.YearAvailabilityDto
 import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.coroutines.Dispatchers

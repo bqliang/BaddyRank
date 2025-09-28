@@ -4,8 +4,8 @@ import com.bqliang.baddy.crawler.captcha.CaptchaDataCache
 import com.bqliang.baddy.crawler.captcha.CaptchaRequiredException
 import com.bqliang.baddy.crawler.captcha.CaptchaSolver
 import com.bqliang.baddy.crawler.captcha.InvalidDataException
-import com.bqliang.baddy.crawler.model.Discipline
-import com.bqliang.baddy.crawler.model.RankingCategory
+import com.bqliang.baddyrank.core.model.data.Discipline
+import com.bqliang.baddyrank.core.model.data.RankingCategory
 import com.bqliang.baddyrank.core.network.data.RankingDto
 import io.github.oshai.kotlinlogging.KotlinLogging
 import io.ktor.client.HttpClient

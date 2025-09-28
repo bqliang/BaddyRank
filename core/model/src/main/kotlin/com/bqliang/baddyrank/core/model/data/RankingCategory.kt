@@ -1,4 +1,4 @@
-package com.bqliang.baddy.crawler.model
+package com.bqliang.baddyrank.core.model.data
 
 enum class RankingCategory(val path: String, val description: String) {
     // 世界排名 - 代码 1

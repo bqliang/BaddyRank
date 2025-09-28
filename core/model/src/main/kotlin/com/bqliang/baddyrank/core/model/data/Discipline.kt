@@ -1,4 +1,4 @@
-package com.bqliang.baddy.crawler.model
+package com.bqliang.baddyrank.core.model.data
 
 enum class Discipline(val code: Int, val description: String) {
     MEN_SINGLES(6, "男子单打"),
