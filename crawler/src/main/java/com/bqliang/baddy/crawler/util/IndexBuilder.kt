@@ -1,18 +1,14 @@
 package com.bqliang.baddy.crawler.util
 
-import com.bqliang.baddy.crawler.di.appModule
-import com.bqliang.baddyrank.core.network.data.DisciplineDto
-import com.bqliang.baddyrank.core.network.data.RankingCategoryDto
 import com.bqliang.baddyrank.core.network.data.YearAvailabilityDto
 import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.koin.core.context.startKoin
 import java.io.File
 
 private val logger = KotlinLogging.logger { }
 
-suspend fun buildAvailableDataFromDirectory(dir: File): Unit = withContext(Dispatchers.IO) {
+suspend fun buildIndexJsonFromDir(dir: File): Unit = withContext(Dispatchers.IO) {
     if (!dir.exists() || !dir.isDirectory) {
         logger.warn { "Warning: Root directory '$dir' does not exist. Returning empty data." }
         return@withContext
@@ -31,7 +27,7 @@ suspend fun buildAvailableDataFromDirectory(dir: File): Unit = withContext(Dispa
 
             if (weeks.isNullOrEmpty()) return@mapNotNull null
 
-            YearAvailabilityDto(year, weeks,)
+            YearAvailabilityDto(year, weeks)
         }?.sortedBy { it.year }
 
     if (availableData.isNullOrEmpty()) {
