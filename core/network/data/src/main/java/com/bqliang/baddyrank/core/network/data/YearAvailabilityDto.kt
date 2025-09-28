@@ -1,0 +1,15 @@
+package com.bqliang.baddyrank.core.network.data
+
+import kotlinx.serialization.Serializable
+
+/**
+ * 描述了单个年份下可用的数据周数。
+ * (这个可以和之前的模型复用)
+ * @param year 年份 (e.g., 2025)。
+ * @param weeks 该年份下所有可用的周数列表。
+ */
+@Serializable
+data class YearAvailability(
+    val year: Int,
+    val weeks: List<Int>
+)
