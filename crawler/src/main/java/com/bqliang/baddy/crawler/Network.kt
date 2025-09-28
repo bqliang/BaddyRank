@@ -8,7 +8,6 @@ import io.ktor.client.plugins.cookies.cookies
 import io.ktor.client.plugins.defaultRequest
 import io.ktor.client.plugins.logging.LogLevel
 import io.ktor.client.plugins.logging.Logging
-import kotlinx.serialization.json.Json
 
 const val BASE_URL = "https://www.badmintoncn.com/"
 
@@ -26,7 +25,7 @@ fun createHttpClient(): HttpClient = HttpClient(OkHttp) {
     }
 
     install(Logging) {
-        level = LogLevel.ALL
+        level = LogLevel.HEADERS
     }
 }
 
