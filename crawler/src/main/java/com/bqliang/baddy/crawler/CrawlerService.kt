@@ -1,7 +1,9 @@
 package com.bqliang.baddy.crawler
 
 import com.bqliang.baddy.crawler.captcha.CaptchaDataCache
+import com.bqliang.baddy.crawler.captcha.CaptchaRequiredException
 import com.bqliang.baddy.crawler.captcha.CaptchaSolver
+import com.bqliang.baddy.crawler.captcha.InvalidDataException
 import com.bqliang.baddy.crawler.model.Discipline
 import com.bqliang.baddy.crawler.model.RankingCategory
 import com.bqliang.baddyrank.core.network.data.RankingDto
@@ -32,11 +34,11 @@ class CrawlerService(
         val document = getRankingPage(rankingCategory, discipline, rw)
 
         if ("验证" in document.title()) {
-            error("Captcha page appeared unexpectedly.")
+            throw CaptchaRequiredException()
         }
 
         if ("数据有误" in document.text()) {
-            throw CancellationException("The website return a '数据有误' message.")
+            throw InvalidDataException()
         }
 
         return document.parseRankTable()
