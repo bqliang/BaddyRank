@@ -72,7 +72,7 @@ class CrawlerService(
 
         logger.info { "Solving captcha question: $question" }
         val answer = captchaSolver.solveTextCaptcha(question)
-        logger.info { "AI solver answer: $answer" }
+        logger.info { "AI solver: $question -> $answer" }
 
         httpClient.submitForm(
             formParameters = Parameters.build {
@@ -104,7 +104,7 @@ class CrawlerService(
     private suspend fun getRankingPage(
         rankingCategory: RankingCategory,
         discipline: Discipline,
-        rw: String? = "",
+        rw: String? = null,
     ): Document {
         return httpClient.get {
             url {
