@@ -1,6 +1,9 @@
 package com.bqliang.baddy.crawler.model
 
-enum class RankingType(val path: String, val description: String) {
+import kotlinx.serialization.Serializable
+
+@Serializable
+enum class RankingCategoryDto(val path: String, val description: String) {
     // 世界排名 - 代码 1
     WORLD_RANKING("ranking", "世界排名"),
 
