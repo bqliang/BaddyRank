@@ -28,6 +28,8 @@ android {
 }
 
 dependencies {
+    implementation(projects.core.ui)
+
     // Coroutines
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
