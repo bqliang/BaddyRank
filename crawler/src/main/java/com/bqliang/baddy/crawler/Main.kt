@@ -6,6 +6,7 @@ import com.bqliang.baddy.crawler.captcha.InvalidDataException
 import com.bqliang.baddy.crawler.di.appModule
 import com.bqliang.baddy.crawler.model.Discipline
 import com.bqliang.baddy.crawler.model.RankingCategory
+import com.bqliang.baddy.crawler.util.buildAllIndexJson
 import com.bqliang.baddy.crawler.util.saveDataAsJson
 import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.coroutines.DelicateCoroutinesApi
@@ -69,5 +70,7 @@ fun main(): Unit = runBlocking {
             }
         }
     }
+
+    buildAllIndexJson()
 }
 
