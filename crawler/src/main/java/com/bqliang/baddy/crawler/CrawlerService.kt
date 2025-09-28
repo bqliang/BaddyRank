@@ -2,8 +2,8 @@ package com.bqliang.baddy.crawler
 
 import com.bqliang.baddy.crawler.captcha.CaptchaDataCache
 import com.bqliang.baddy.crawler.captcha.CaptchaSolver
-import com.bqliang.baddy.crawler.model.DisciplineDto
-import com.bqliang.baddy.crawler.model.RankingCategoryDto
+import com.bqliang.baddy.crawler.model.Discipline
+import com.bqliang.baddy.crawler.model.RankingCategory
 import com.bqliang.baddyrank.core.network.data.RankingDto
 import io.github.oshai.kotlinlogging.KotlinLogging
 import io.ktor.client.HttpClient
@@ -25,8 +25,8 @@ class CrawlerService(
     private val captchaSolver: CaptchaSolver,
 ) {
     suspend fun fetchRanking(
-        rankingCategory: RankingCategoryDto,
-        discipline: DisciplineDto,
+        rankingCategory: RankingCategory,
+        discipline: Discipline,
         rw: String? = "",
     ): List<RankingDto> {
         val document = getRankingPage(rankingCategory, discipline, rw)
@@ -100,8 +100,8 @@ class CrawlerService(
     }
 
     private suspend fun getRankingPage(
-        rankingCategory: RankingCategoryDto,
-        discipline: DisciplineDto,
+        rankingCategory: RankingCategory,
+        discipline: Discipline,
         rw: String? = "",
     ): Document {
         return httpClient.get {

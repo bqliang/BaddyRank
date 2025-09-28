@@ -1,6 +1,6 @@
 package com.bqliang.baddy.crawler.model
 
-enum class DisciplineDto(val code: Int, val description: String) {
+enum class Discipline(val code: Int, val description: String) {
     MEN_SINGLES(6, "男子单打"),
     WOMEN_SINGLES(7, "女子单打"),
     MEN_DOUBLES(8, "男子双打"),
@@ -11,6 +11,6 @@ enum class DisciplineDto(val code: Int, val description: String) {
         get() = name.lowercase()
 
     companion object {
-        fun fromCode(code: Int): DisciplineDto? = entries.find { it.code == code }
+        fun fromCode(code: Int): Discipline? = entries.find { it.code == code }
     }
 }
