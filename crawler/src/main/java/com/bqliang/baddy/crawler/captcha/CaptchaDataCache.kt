@@ -2,7 +2,7 @@
 
 package com.bqliang.baddy.crawler.captcha
 
-import com.bqliang.baddy.crawler.saveDataAsJson
+import com.bqliang.baddy.crawler.util.saveDataAsJson
 import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
