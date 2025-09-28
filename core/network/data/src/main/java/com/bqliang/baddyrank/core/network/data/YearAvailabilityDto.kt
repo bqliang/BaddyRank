@@ -9,7 +9,7 @@ import kotlinx.serialization.Serializable
  * @param weeks 该年份下所有可用的周数列表。
  */
 @Serializable
-data class YearAvailability(
+data class YearAvailabilityDto(
     val year: Int,
-    val weeks: List<Int>
+    val weeks: List<Int>,
 )
