@@ -1,5 +1,6 @@
 package com.bqliang.baddyrank.core.database.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -17,8 +18,11 @@ import androidx.room.PrimaryKey
 data class PlayerEntity(
     @PrimaryKey
     val id: String,
+    @ColumnInfo(name = "country_abbreviation")
     val countryAbbreviation: String,
+    @ColumnInfo(name = "country_flag_url")
     val countryFlagUrl: String,
+    @ColumnInfo(name = "avatar_url")
     val avatarUrl: String,
     val chineseName: String,
     val englishName: String

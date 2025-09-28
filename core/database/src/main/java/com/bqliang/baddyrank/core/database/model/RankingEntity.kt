@@ -1,5 +1,6 @@
 package com.bqliang.baddyrank.core.database.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
@@ -23,9 +24,11 @@ data class RankingEntity(
     @PrimaryKey(autoGenerate = true)
     val id: Long = 0,
     val rank: Int,
+    @ColumnInfo(name = "rank_trend")
     val rankTrend: Int,
     val tournaments: Int?,
     val points: Int,
+    @ColumnInfo(name = "protected_rank")
     val protectedRank: Boolean = false,
     val category: String, // e.g., "WORLD_RANKING"
     val discipline: String, // e.g., "MEN_SINGLES"

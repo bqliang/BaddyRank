@@ -1,5 +1,6 @@
 package com.bqliang.baddyrank.core.database.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
@@ -12,25 +13,28 @@ import androidx.room.Index
  */
 @Entity(
     tableName = "ranking_player_cross_ref",
-    primaryKeys = ["rankingId", "playerId"],
+    primaryKeys = ["ranking_id", "player_id"],
     foreignKeys = [
         ForeignKey(
             entity = RankingEntity::class,
             parentColumns = ["id"],
-            childColumns = ["rankingId"]
+            childColumns = ["ranking_id"],
         ),
         ForeignKey(
             entity = PlayerEntity::class,
             parentColumns = ["id"],
-            childColumns = ["playerId"]
+            childColumns = ["player_id"],
+            onDelete = ForeignKey.CASCADE,
         )
     ],
     indices = [
-        Index(value = ["rankingId"]),
-        Index(value = ["playerId"])
+        Index(value = ["ranking_id"]),
+        Index(value = ["player_id"]),
     ]
 )
 data class RankingPlayerCrossRef(
+    @ColumnInfo(name = "ranking_id")
     val rankingId: Long,
-    val playerId: String
+    @ColumnInfo(name = "player_id")
+    val playerId: String,
 )
