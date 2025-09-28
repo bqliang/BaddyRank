@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- debug="true" 打印日志配置的加载过程与内部状态信息 -->
-<configuration debug="true">
+<configuration debug="false">
 
     <!-- 定义存放日志文件的目录名 -->
     <property name="LOG_HOME" value="logs" />
