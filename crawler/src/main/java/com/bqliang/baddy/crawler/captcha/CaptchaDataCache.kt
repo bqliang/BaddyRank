@@ -37,21 +37,31 @@ class CaptchaDataCacheImpl(json: Json) : CaptchaDataCache {
 
     override suspend fun saveCacheCaptchaData(question: String, answer: String) {
         if (cache[question] == answer) {
+            logger.info { "try to save [$question -> $answer] to cache, but it already exists" }
             return
         }
         cache[question] = answer
         cache.saveDataAsJson(cacheFile)
+
+        logger.info { "save [$question -> $answer] to cache successfully" }
     }
 
     override suspend fun getCacheCaptchaAnswer(question: String): String? {
-        return cache[question]
+        return cache[question].also { answer ->
+            logger.debug {
+                if (answer == null) "未命中缓存: $question"
+                else "命中缓存: $question -> $answer"
+            }
+        }
     }
 
     override suspend fun removeCacheCaptchaData(question: String) {
-        if (cache[question] == null) {
-            return
+        val answer = cache.remove(question)
+        if (answer == null) {
+            logger.info { "try to remove [$question -> $answer] from cache, but it doesn't exist" }
+        } else {
+            cache.saveDataAsJson(cacheFile)
+            logger.info { "remove [$question -> $answer] from cache successfully" }
         }
-        cache.remove(question)
-        cache.saveDataAsJson(cacheFile)
     }
 }
