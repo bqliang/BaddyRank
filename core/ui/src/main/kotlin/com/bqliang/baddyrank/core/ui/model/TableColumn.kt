@@ -1,6 +1,6 @@
 package com.bqliang.baddyrank.core.ui.model
 
-internal enum class TableColumn(val title: String, val weight: Float) {
+enum class TableColumn(val title: String, val weight: Float) {
     Rank("排名", 0.22f),
     Country("国籍", 0.22f),
     Player("球员", 1f),

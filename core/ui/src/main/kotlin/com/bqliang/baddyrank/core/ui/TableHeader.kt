@@ -15,7 +15,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.bqliang.baddyrank.core.ui.model.TableColumn
-import com.bqliang.baddyrank.feature.ranking.model.TableColumn
 
 @Preview
 @Composable
