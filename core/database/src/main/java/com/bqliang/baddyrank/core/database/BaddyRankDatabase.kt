@@ -8,7 +8,7 @@ import com.bqliang.baddyrank.core.database.model.PlayerEntity
 import com.bqliang.baddyrank.core.database.model.RankingEntity
 import com.bqliang.baddyrank.core.database.model.RankingPlayerCrossRef
 import com.bqliang.baddyrank.core.database.model.YearAvailabilityEntity
-import com.bqliang.baddyrank.core.database.util.ListIntConverters
+import com.bqliang.baddyrank.core.database.util.Converters
 
 @Database(
     entities = [
@@ -20,7 +20,7 @@ import com.bqliang.baddyrank.core.database.util.ListIntConverters
     version = 1,
     exportSchema = false // 在初期开发阶段可以设为 false，如果需要做数据库迁移则需设为 true
 )
-@TypeConverters(ListIntConverters::class)
+@TypeConverters(Converters::class)
 abstract class BaddyRankDatabase : RoomDatabase() {
     abstract fun rankingDao(): RankingDao
 }

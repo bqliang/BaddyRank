@@ -3,6 +3,7 @@ package com.bqliang.baddyrank.core.database.model
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.bqliang.baddyrank.core.model.data.Player
 
 /**
  * 运动员实体类，用于 Room 数据库缓存
@@ -26,4 +27,13 @@ data class PlayerEntity(
     val avatarUrl: String,
     val chineseName: String,
     val englishName: String
+)
+
+fun PlayerEntity.asExternalModel(): Player = Player(
+    id = id,
+    countryAbbreviation = countryAbbreviation,
+    countryFlag = countryFlagUrl,
+    avatar = avatarUrl,
+    chineseName = chineseName,
+    englishName = englishName,
 )

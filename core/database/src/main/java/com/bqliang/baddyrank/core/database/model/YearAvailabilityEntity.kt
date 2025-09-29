@@ -1,6 +1,7 @@
 package com.bqliang.baddyrank.core.database.model
 
 import androidx.room.Entity
+import com.bqliang.baddyrank.core.model.data.YearAvailability
 
 /**
  * 缓存特定排名类型和项目下，某一年份可用的数据周数
@@ -20,4 +21,9 @@ data class YearAvailabilityEntity(
     val discipline: String,
     val year: Int,
     val weeks: List<Int>,
+)
+
+fun YearAvailabilityEntity.asExternalModel() = YearAvailability(
+    year = year,
+    weeks = weeks,
 )

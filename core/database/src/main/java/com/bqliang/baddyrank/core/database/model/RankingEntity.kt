@@ -4,6 +4,8 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
+import com.bqliang.baddyrank.core.model.data.Discipline
+import com.bqliang.baddyrank.core.model.data.RankingCategory
 
 /**
  * 排名信息实体类，用于 Room 数据库缓存
@@ -30,8 +32,8 @@ data class RankingEntity(
     val points: Int,
     @ColumnInfo(name = "protected_rank")
     val protectedRank: Boolean = false,
-    val category: String, // e.g., "WORLD_RANKING"
-    val discipline: String, // e.g., "MEN_SINGLES"
+    val category: RankingCategory,
+    val discipline: Discipline,
     val year: Int,
     val week: Int,
 )

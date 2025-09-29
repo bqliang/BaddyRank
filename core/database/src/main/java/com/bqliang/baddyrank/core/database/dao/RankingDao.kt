@@ -28,14 +28,13 @@ interface RankingDao {
         AND year = :year 
         AND week = :week
         ORDER BY rank ASC
-        LIMIT 1
     """)
     fun getRanking(
         category: String,
         discipline: String,
         year: Int,
         week: Int
-    ): Flow<RankingWithPlayers>
+    ): Flow<List<RankingWithPlayers>>
 
     /**
      * 插入一条排名记录，并返回它在数据库中的自增 ID
@@ -50,6 +49,23 @@ interface RankingDao {
      */
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertPlayers(players: List<PlayerEntity>)
+
+    @Transaction
+    suspend fun insertRankingWithPlayers(ranking: RankingEntity, players: List<PlayerEntity>) {
+        val rankingId: Long = insertRanking(ranking)
+        insertPlayers(players)
+        val crossRefs = players.map(PlayerEntity::id).map { playerId ->
+            RankingPlayerCrossRef(rankingId, playerId)
+        }
+        insertRankingPlayerCrossRefs(crossRefs)
+    }
+
+    @Transaction
+    suspend fun insertRankingsWithPlayers(rankingsWithPlayers: List<Pair<RankingEntity, List<PlayerEntity>>>) {
+        rankingsWithPlayers.forEach { (ranking, players) ->
+            insertRankingWithPlayers(ranking, players)
+        }
+    }
 
     /**
      * 批量插入排名与运动员的关联关系

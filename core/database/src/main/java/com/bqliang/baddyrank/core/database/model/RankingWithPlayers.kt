@@ -3,6 +3,7 @@ package com.bqliang.baddyrank.core.database.model
 import androidx.room.Embedded
 import androidx.room.Junction
 import androidx.room.Relation
+import com.bqliang.baddyrank.core.model.data.Ranking
 
 /**
  * 用于封装一个 RankingEntity 及其关联的多个 PlayerEntity 的关系类
@@ -24,4 +25,13 @@ data class RankingWithPlayers(
         )
     )
     val players: List<PlayerEntity>
+)
+
+fun RankingWithPlayers.asExternalModel(): Ranking = Ranking(
+    rank = ranking.rank,
+    players = players.map(PlayerEntity::asExternalModel),
+    rankTrend = ranking.rankTrend,
+    tournaments = ranking.tournaments,
+    points = ranking.points,
+    protectedRank = ranking.protectedRank,
 )
