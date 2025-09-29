@@ -30,8 +30,8 @@ private fun TableHeaderPreview() {
 @Composable
 fun TableHeader(
     modifier: Modifier = Modifier,
-    backgroundColor: Color,
-    titleColor: Color,
+    backgroundColor: Color = Color(205, 55, 50),
+    titleColor: Color = Color.White,
     tableColumns: List<TableColumn>,
 ) {
     Row(

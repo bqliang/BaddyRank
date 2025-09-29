@@ -131,7 +131,7 @@ fun RankingRow(
             verticalArrangement = Arrangement.SpaceBetween,
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            players.take(2).forEach { player ->
+            players.forEach { player ->
                 key(player.id) {
                     CountryCell(
                         countryAbbreviation = player.countryAbbreviation,
@@ -145,7 +145,7 @@ fun RankingRow(
             modifier = Modifier.weight(TableColumn.Player.weight),
             verticalArrangement = Arrangement.SpaceBetween,
         ) {
-            players.take(2).forEach { player ->
+            players.forEach { player ->
                 key(player.id) {
                     PlayerCell(
                         avatar = player.avatar,
@@ -165,13 +165,15 @@ fun RankingRow(
             Text(
                 modifier = Modifier.weight(TableColumn.Tournaments.weight),
                 textAlign = TextAlign.Center,
-                text = tournaments.toString()
+                style = MaterialTheme.typography.bodySmall,
+                text = tournaments.toString(),
             )
         }
 
         Text(
             modifier = Modifier.weight(TableColumn.Points.weight),
             textAlign = TextAlign.End,
+            style = MaterialTheme.typography.bodySmall,
             text = points.toString()
         )
     }

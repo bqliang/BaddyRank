@@ -51,7 +51,7 @@ fun PlayerCell(
             contentDescription = null,
         )
 
-        Spacer(modifier = Modifier.width(12.dp))
+        Spacer(modifier = Modifier.width(6.dp))
 
         Column {
             Text(

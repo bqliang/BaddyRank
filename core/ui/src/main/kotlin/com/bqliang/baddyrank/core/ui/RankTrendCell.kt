@@ -9,6 +9,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.TrendingDown
 import androidx.compose.material.icons.automirrored.filled.TrendingUp
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -45,6 +46,9 @@ fun RankTrendCell(
         }
 
         val text = if (rankTrend == 0) "-" else rankTrend.toString()
-        Text(text = text)
+        Text(
+            style = MaterialTheme.typography.bodySmall,
+            text = text,
+        )
     }
 }
