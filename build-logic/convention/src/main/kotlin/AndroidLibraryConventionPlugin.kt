@@ -15,8 +15,9 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
 
             extensions.configure<LibraryExtension> {
                 configureKotlinAndroid(this)
-                testOptions.targetSdk = 36
-                lint.targetSdk = 36
+                val targetSdk = libs.findVersion("targetSdk").get().toString().toInt()
+                testOptions.targetSdk = targetSdk
+                lint.targetSdk = targetSdk
                 defaultConfig.testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
                 testOptions.animationsDisabled = true
                 // The resource prefix is derived from the module name,
