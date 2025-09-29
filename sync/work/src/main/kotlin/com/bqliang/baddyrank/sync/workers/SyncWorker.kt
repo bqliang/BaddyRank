@@ -1,7 +1,6 @@
 package com.bqliang.baddyrank.sync.workers
 
 import android.content.Context
-import android.util.Log
 import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
 import androidx.work.ForegroundInfo
@@ -28,7 +27,6 @@ internal class SyncWorker @AssistedInject constructor(
         appContext.syncForegroundInfo()
 
     override suspend fun doWork(): Result = withContext(Dispatchers.IO) {
-        Log.e("bqliang", "SyncWorker - doWork")
         val syncedSuccessfully = baddyRankRepository.syncRankingAvailability()
         if (syncedSuccessfully) {
             Result.success()

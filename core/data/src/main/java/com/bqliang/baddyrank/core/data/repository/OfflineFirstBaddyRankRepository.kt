@@ -1,6 +1,5 @@
 package com.bqliang.baddyrank.core.data.repository
 
-import android.util.Log
 import com.bqliang.baddyrank.core.data.model.asEntity
 import com.bqliang.baddyrank.core.database.dao.RankingDao
 import com.bqliang.baddyrank.core.database.model.YearAvailabilityEntity
@@ -36,8 +35,6 @@ internal class OfflineFirstBaddyRankRepository @Inject constructor(
                         .isSuccess
                 }
             }
-        }.flatten().awaitAll().all { isSuccess -> isSuccess }.also {
-            Log.e("bqliang", "syncRankingAvailability - $it")
-        }
+        }.flatten().awaitAll().all { isSuccess -> isSuccess }
     }
 }

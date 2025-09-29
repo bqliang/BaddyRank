@@ -10,6 +10,7 @@ import io.ktor.client.plugins.HttpTimeout
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.defaultRequest
 import io.ktor.client.plugins.logging.Logging
+import io.ktor.http.ContentType
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
 import javax.inject.Singleton
@@ -37,7 +38,10 @@ internal object NetworkModule {
         }
 
         install(ContentNegotiation) {
-            json(json)
+            json(
+                json = json,
+                contentType = ContentType.Text.Plain,
+            )
         }
 
         install(HttpTimeout) {
