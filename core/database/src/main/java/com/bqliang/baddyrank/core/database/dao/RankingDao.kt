@@ -29,7 +29,7 @@ interface RankingDao {
         ORDER BY rank ASC
         LIMIT 1
     """)
-    fun getRankings(
+    fun getRanking(
         category: String,
         discipline: String,
         year: Int,
