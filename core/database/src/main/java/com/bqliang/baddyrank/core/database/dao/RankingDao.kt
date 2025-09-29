@@ -9,6 +9,7 @@ import com.bqliang.baddyrank.core.database.model.PlayerEntity
 import com.bqliang.baddyrank.core.database.model.RankingEntity
 import com.bqliang.baddyrank.core.database.model.RankingPlayerCrossRef
 import com.bqliang.baddyrank.core.database.model.RankingWithPlayers
+import com.bqliang.baddyrank.core.database.model.YearAvailabilityEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -55,4 +56,24 @@ interface RankingDao {
      */
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertRankingPlayerCrossRefs(crossRefs: List<RankingPlayerCrossRef>)
+
+    /**
+     * 批量插入或替换可用年份的周数据
+     */
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertYearAvailabilities(data: List<YearAvailabilityEntity>)
+
+    /**
+     * 根据排名类型和项目，查询所有已缓存的可用年份和周数据
+     * @return 一个数据流，当可用周数据变化时会自动更新
+     */
+    @Query("""
+        SELECT * FROM year_availability
+        WHERE category = :category AND discipline = :discipline
+        ORDER BY year DESC
+    """)
+    fun getYearAvailabilities(
+        category: String,
+        discipline: String
+    ): Flow<List<YearAvailabilityEntity>>
 }
