@@ -69,5 +69,9 @@ gradlePlugin {
             id = libs.plugins.baddyrank.android.room.get().pluginId
             implementationClass = "AndroidRoomConventionPlugin"
         }
+        register("androidFeature") {
+            id = libs.plugins.baddyrank.android.feature.get().pluginId
+            implementationClass = "AndroidFeatureConventionPlugin"
+        }
     }
 }
