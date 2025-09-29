@@ -14,6 +14,7 @@ import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
 import javax.inject.Singleton
 
+
 @Module
 @InstallIn(SingletonComponent::class)
 internal object NetworkModule {
@@ -23,31 +24,29 @@ internal object NetworkModule {
     @Provides
     @Singleton
     fun providesNetworkJson(): Json = Json {
-        ignoreUnknownKeys = true // 忽略未知属性
+        ignoreUnknownKeys = true
         prettyPrint = true
     }
 
     @Provides
     @Singleton
-    fun provideKtorHttpClient(
-        json: Json,
-    ) : HttpClient {
-        return HttpClient(OkHttp) {
-            defaultRequest {
-                url(BASE_URL)
-            }
+    fun providesHttpClient(json: Json): HttpClient = HttpClient(OkHttp) {
 
-            install(HttpTimeout) {
+        defaultRequest {
+            url(BASE_URL)
+        }
 
-            }
+        install(ContentNegotiation) {
+            json(json)
+        }
 
-            install(ContentNegotiation) {
-                json(json)
-            }
+        install(HttpTimeout) {
 
-            install(Logging) {
+        }
 
-            }
+        install(Logging) {
+
         }
     }
 }
+

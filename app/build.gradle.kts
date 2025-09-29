@@ -28,6 +28,7 @@ android {
 }
 
 dependencies {
+    implementation(projects.sync.work)
     implementation(projects.core.ui)
 
     // Coroutines

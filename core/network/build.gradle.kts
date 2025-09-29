@@ -14,7 +14,7 @@ android {
 
 dependencies {
     api(projects.core.model)
-    implementation(projects.core.network.data)
+    api(projects.core.network.data)
 
     // Ktor
     implementation(ktorLibs.client.core)

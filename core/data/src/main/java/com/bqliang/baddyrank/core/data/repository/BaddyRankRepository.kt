@@ -1,5 +1,6 @@
 package com.bqliang.baddyrank.core.data.repository
 
-interface BaddyRankRepository {
 
+interface BaddyRankRepository {
+    suspend fun syncRankingAvailability() : Boolean
 }

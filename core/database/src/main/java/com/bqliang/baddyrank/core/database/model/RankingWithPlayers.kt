@@ -14,9 +14,14 @@ data class RankingWithPlayers(
     @Embedded
     val ranking: RankingEntity,
     @Relation(
+        entity = PlayerEntity::class,
         parentColumn = "id", // RankingEntity 的主键
         entityColumn = "id",   // PlayerEntity 的主键
-        associateBy = Junction(RankingPlayerCrossRef::class)
+        associateBy = Junction(
+            value = RankingPlayerCrossRef::class,
+            parentColumn = "ranking_id",
+            entityColumn = "player_id",
+        )
     )
     val players: List<PlayerEntity>
 )
