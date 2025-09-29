@@ -39,6 +39,7 @@ include(":core:network:data")
 include(":core:data")
 include(":core:network")
 include(":core:database")
+include(":sync:work")
 
 check(JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
     """
