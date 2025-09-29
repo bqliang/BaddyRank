@@ -41,6 +41,7 @@ include(":core:network")
 include(":core:database")
 include(":sync:work")
 include(":feature:ranking")
+include(":core:designsystem")
 
 check(JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_17)) {
     """

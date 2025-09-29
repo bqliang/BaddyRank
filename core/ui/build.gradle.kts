@@ -9,9 +9,7 @@ android {
 
 dependencies {
     api(projects.core.model)
-
-    implementation(libs.androidx.material3)
-    implementation(libs.androidx.compose.material.iconsExtended)
+    api(projects.core.designsystem)
 
     implementation(libs.coil.compose)
     implementation(libs.coil.ktor3)
